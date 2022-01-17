@@ -1,0 +1,346 @@
+
+/* 
+Puse el reseat pero me dejaba todo mas feo y no me permitia hacer otras cosas, pero dejo aca el que puse en caso de corregirme algo
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+
+}
+*/
+
+a:hover {
+    color: white;
+
+}
+
+#header {
+background-image: url(./img/hornopizza.jpg);
+height: 400px;
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.header_titulo {
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    
+}
+
+.header_logo {
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-top: 25px;
+
+}
+
+.header_menu {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+
+.header_menu ul li {
+    border: 1px solid none;
+    padding: 5px;
+    margin: 0 10px;
+    list-style: none;
+    display: inline; 
+    text-decoration: none;
+    text   
+}
+
+/* hasta aca el css del head */
+
+p {
+    color: white;
+}
+
+h2 {
+    padding: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Cormorant Infant', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    border: inset;
+}
+
+@keyframes efecto {
+    0% {
+        color: white;
+        font-size: auto;
+    }
+    100% {
+        color: black;
+        font-size: 18px;
+    }
+}
+
+.tituloh2 {
+    animation-name: efecto;
+    animation-iteration-count: initial;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+}
+
+
+.tituloh2 {
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to left, red,rgb(187, 187, 20));
+}
+
+
+#video_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+    flex-direction: row;
+}
+
+#video_home .btnPedir {
+    font-size: 50px;
+    color: white;
+    background-color: none;
+    border: 5px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -250px;
+    nav-left: 100px;
+    width: 300px;
+    height: auto;
+    transition: width 3s;
+    text-align: center;
+}
+
+
+#video_home .btnPedir:hover {
+    width: 400px;
+    height: auto;
+    background-color: rgb(216, 77, 22);
+    text-align: center;
+}
+
+
+.footerh3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: black;
+    padding-top: 30px;
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+footer .footerMapa {
+    border: black 4px solid;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+footer .footerMapa .facebook {
+    width: 50px;
+    height: auto;
+}
+
+.mapa {
+    width: 900px;
+    height: 250px;
+    
+}
+
+.instagram {
+    width: 50px; 
+    height: auto;
+}
+
+
+.footerRedes {
+    border: white 8px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.footerRedes p {
+    color: black;
+}
+
+
+.iconMap {
+    width: 50px;
+    height: auto;
+    display: flex;
+    
+}
+
+.iconEmail {
+    width: 50px;
+    height: auto;
+    
+}
+
+.iconTel {
+    width: 50px;
+    height: auto; 
+}
+
+#consultas {
+    text-align: center;
+    padding-top: 50px;
+    display: inline;
+}
+
+h3 {
+    padding: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: black;
+    color: white;
+    font-family: 'Cormorant Infant', serif;
+    letter-spacing: 5px;
+    text-align: center;
+    
+}
+
+
+legend {
+        background-color: white;
+        color: black;
+        font-family: 'Cormorant Infant', serif;
+        text-align: center; 
+    
+}
+
+.form_name {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+
+/* Hasta acá el header y footer */
+/* Desde acá seccion NOSOTROS */
+
+
+
+.sectionNos1 {
+    display: flex;
+}
+.sectionNos2 {
+    display: flex}
+
+.txtNos1 {
+    padding-top: 30px;    
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cormorant Infant', serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    background-color: black;
+    
+}
+
+.imgNos1 {
+    height: 300px;
+    width: auto;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+
+.imgNos2 {
+    height: 258px;
+    width: auto;
+    padding-left: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+.txtNos2 {   
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cormorant Infant', serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+}
+
+
+/* HASTA acá seccion NOSOTROS */
+/* Desde acá seccion MENÚ */
+
+
+.pizzas {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pizzas .pizzas1 .pizzas1txt {
+    background-color: green;
+    border-radius: 5px;
+    display: inline-block;
+    
+
+/* quiero separar los nombres de las pizzas  */    
+}
+
+
+
+
+
+/* Desde acá seccion SUCURSALES */
+
+
+.Mapas_sucursales {
+    background-color: black;
+    width: auto;
+    height: 100%;
+    padding-right: px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25%;
+    display: flex;
+}
+
+h4 {
+    color: white;
+    padding-left: 25px;
+}
+
+.Mapas_Sucursales_p {
+    color: white;
+}
+

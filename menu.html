@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria_ElCosito</title>
+    <link rel="shortcut icon" href="./img/logo.png"> <!-- favicon agregado -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+
+
+<!-- Encabezado -->
+
+
+<body>
+
+<header id="header">
+ 
+    <div class="header_titulo"> 
+        <h1>Pizzería El Cosito</h1>
+    </div>
+    
+
+    <div class="header_logo">
+        <img src="./img/logo.png" alt="logo pizzeria" width="150" height="auto">
+    </div>
+
+        <!-- Menú - Listas desordenadas -->
+
+        <nav class="header_menu">
+
+            <ul>
+                <li> <a href="./index.html" target="_blank";>Home</a></li>  
+                <li> <a href="./nosotros.html" target="blank">Nosotros</a></li>
+                <li> <a href="./menu.html" target="blank">Menu</a></li>
+                <li> <a href="./contacto.html" target="blank">Contacto</a></li>
+                <li><a href="./sucursales.html"target="blank">Sucursales</a></li>
+                <li><a href="#consultas">Consultas</a></li>
+            </ul>
+
+        </nav>
+
+
+</header>
+
+
+<h2>Nuestro Menú</h2>
+
+
+
+<section class="pizzas">
+
+    <div class="pizzas1"> 
+
+        <div class="pizzas1txt">
+            
+                <a href="">4 ESTACIONES</a>
+                <a href="">CHORIZO</a>
+                <a href="">IBERICA</a>
+            
+            
+        </div>
+
+
+        <div>
+            <img src="./img/4estaciones.png" alt="pizza sabor 4 estaciones" class="cuatroestaciones">
+            <img src="./img/Chorizo.png" alt="pizza sabor chorizo" class="chorizo">
+            <img src="./img/Iberica.png" alt="pizza sabor iberica" class="iberica">
+        </div>
+  </section>
+
+<section class="pizzas">
+    
+    <div class="pizzas2">
+        <a href="btn">MITAD</a>
+        <a href="btn">SALAME</a>
+        <a href="btn">YORK</a>
+    </div>
+    
+    <div>
+        <img src="./img/mitad.png" alt="pizza mitad" class="mitad">
+        <img src="./img/salame.png" alt="pizza sabor salame" class="salame">
+        <img src="./img/york.png" alt="pizza york" class="york">
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+    
+    <footer id="footer">
+        
+        <div">
+        
+        <h3 class="footerh3">Nuestra sucursal</h3>
+        
+    </div>
+    
+    <section> 
+        
+        
+        <div class="footerMapa">
+            <a href="https://www.facebook.com/"><img src="./icons/facebook.png" alt="facebook" class="facebook"></a>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.769223956098!2d-58.406136985608825!3d-34.60999668045786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaee6853a483%3A0xfec59489886b3037!2sRivadavia%202601-2699%2C%20C1034ACF%20CABA!5e0!3m2!1ses-419!2sar!4v1638039119446!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
+            
+            
+            <a href="https://www.instagram.com/"><img src="./icons/instagram.png" alt="instagram" class="instagram"></a>
+        </div>
+        
+    </section>
+    
+    
+    <div class="footerRedes">
+        
+        <img src="./icons/maps.png" alt="logo ubicación"  class="iconMap">
+        <p>Av. Rivadavia 2239</p>
+        <img src="./icons/email.png" alt="logo email"  class="iconEmail">
+        <p>contacto@pizzeriaelcosito.com</p>
+        <img src="./icons/telefono.png" alt="logo telefono" class="iconTel">
+        <p>4932-5563</p>
+        
+    </div>
+    
+    
+    
+    <!-- El formulario lo tenía pensado realizar en la sección contacto pero la agrego en la home para cumplir con la consigna -->    
+    
+    <div>
+        
+        <h3>Consultas</h3>
+        
+        <form action="" method="get" enctype="text/plain" id="consultas">
+            
+        </div>
+        
+        <div>
+            
+        
+        <fieldset>
+            
+            <legend>
+                <div class="form_name">
+                    
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>    
+            <div class="form_name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" >
+            </div>
+            <div class="form_name">
+
+                <label for="pass">Contraseña</label>
+                <input type="password" id="pass">
+            </div>
+            <div class="form_name">
+
+                <label for="comentario">Comentarios</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+            </div>
+            
+            
+            
+    
+            <label for="Sexo">M</label>
+            <input type="radio" name="Sexo">
+            <label for="Sexo">F</label>
+            <input type="radio" name="Sexo">
+    
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            </legend>
+        </fieldset>
+
+</div>
+
+
+</form>
+
+    </div>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+@media (max-width: 425px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto 100px;
+        padding-top: 10px; 
+    }
+    
+    header .header_titulo {
+        font-size: 16px;
+    }
+    
+    header .header_menu {
+        font-size: 18px;
+        padding-top: 10px;        
+    }
+    
+    h2 {
+        font-size: large;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #video_home {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    section {
+        display: grid;
+    
+    }
+    
+    section .btnPedir {
+        display:flex;
+        
+    }
+    
+    .footerh3 {
+        font-size: large;
+    }
+    
+    footer {
+        padding-top: 30px; 
+    }
+
+    footer .footerMapa {
+        display: flex;
+        text-align: center;
+    }
+
+    footer .footerMapa .facebook {
+        width: 40px;
+        height: auto;
+    }
+
+    
+    footer .footerMapa .instagram {
+        width: 40px;
+        height: auto;
+    }
+    
+    .mapa {
+        width: 200px;
+        height: auto;
+    }
+    
+    footer .footerRedes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size:small;
+    }
+    
+    .iconMap {
+        width: 40px;
+        height: auto;
+    }
+    
+    .iconEmail {
+        width: 40px;
+        height: auto;
+    }
+    
+    .iconTel {
+        width: 40px;
+        height: auto;
+    }
+
+    /* Desde acá va la seccion menú */
+
+    .pizzas1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        font-size:small;
+    }
+
+    .pizzas .pizzas1 .cuatroestaciones {
+        width: 150px;
+        height: auto;
+        display: flex;
+    }
+
+    .pizzas .pizzas1 .chorizo {
+        width: 150px;
+        height: auto;
+        display: flex;
+    }
+
+    .pizzas .pizzas1 .iberica {
+        width: 150px;
+        height: auto;
+        display: flex;
+    }
+    .mitad {
+        width: 150px;
+        height: auto;
+        display: flex;
+    }
+    .salame {
+        width: 150px;
+        height: auto;
+        display: flex;
+    }
+    .york {
+        width: 150px;
+        height: auto;
+        display: flex;
+    }
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
