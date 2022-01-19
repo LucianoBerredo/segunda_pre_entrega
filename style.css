@@ -1,18 +1,14 @@
-
-/* 
-Puse el reseat pero me dejaba todo mas feo y no me permitia hacer otras cosas, pero dejo aca el que puse en caso de corregirme algo
-
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: 0;
     text-decoration: none;
-
 }
 */
 
 a:hover {
-    color: white;
+    color: #e20202;
 
 }
 
@@ -29,7 +25,8 @@ background-size:cover;
     text-align: center;
     padding-top: 20px;
     font-size: 25px;
-    
+    background-color: rgba(0, 0, 0, 0.514);
+    padding-bottom: 20px;    
 }
 
 .header_logo {
@@ -39,17 +36,18 @@ background-size:cover;
     justify-content: center;
     width: auto;
     padding-top: 25px;
-
 }
 
 .header_menu {
-    list-style: none;
     text-align: center;
-    font-size: 20px;
-    padding-top: 10px;
-    text-decoration: none;
+    font-size: 24px;
+    padding-top: 40px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 .header_menu ul li {
     border: 1px solid none;
@@ -57,8 +55,7 @@ background-size:cover;
     margin: 0 10px;
     list-style: none;
     display: inline; 
-    text-decoration: none;
-    text   
+    text-decoration: none;   
 }
 
 /* hasta aca el css del head */
@@ -96,13 +93,11 @@ h2 {
     animation-timing-function:linear;
 }
 
-
 .tituloh2 {
     background-color: black;
     color: white;
     background-image: linear-gradient(to left, red,rgb(187, 187, 20));
 }
-
 
 #video_home {
     display: flex;
@@ -146,7 +141,6 @@ h2 {
     justify-content: center;
     font-size: 25px;
     background-color: black;
-    padding-top: 30px;
     padding: 10px;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -165,10 +159,16 @@ footer .footerMapa .facebook {
     height: auto;
 }
 
+.facebookCaja {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border: 55px;
+    border-radius: 100%;
+}
+
 .mapa {
     width: 900px;
-    height: 250px;
-    
+    height: 250px;    
 }
 
 .instagram {
@@ -176,6 +176,12 @@ footer .footerMapa .facebook {
     height: auto;
 }
 
+.instagramCaja {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border: 55px;
+    border-radius: 100%;
+}
 
 .footerRedes {
     border: white 8px solid;
@@ -190,18 +196,15 @@ footer .footerMapa .facebook {
     color: black;
 }
 
-
 .iconMap {
     width: 50px;
     height: auto;
     display: flex;
-    
 }
 
 .iconEmail {
     width: 50px;
     height: auto;
-    
 }
 
 .iconTel {
@@ -224,7 +227,6 @@ h3 {
     font-family: 'Cormorant Infant', serif;
     letter-spacing: 5px;
     text-align: center;
-    
 }
 
 
@@ -233,26 +235,32 @@ legend {
         color: black;
         font-family: 'Cormorant Infant', serif;
         text-align: center; 
-    
 }
 
-.form_name {
-    justify-content: space-around;
+.formulario {
+    align-items: center;
+    font-size: 23px;
+    padding-top: 10px 15px 15px 15px;
+    justify-content: start;
+}
+
+label {
     display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
-
 
 
 /* Hasta acá el header y footer */
 /* Desde acá seccion NOSOTROS */
 
 
-
 .sectionNos1 {
     display: flex;
 }
 .sectionNos2 {
-    display: flex}
+    display: flex;
+}
 
 .txtNos1 {
     padding-top: 30px;    
@@ -261,9 +269,7 @@ legend {
     font-family: 'Cormorant Infant', serif;
     padding-left: 100px;
     padding-right: 100px;
-    color: white;
-    background-color: black;
-    
+    color: white; 
 }
 
 .imgNos1 {
@@ -273,9 +279,7 @@ legend {
     display: flex;
     justify-content: center;
     position: relative;
-    background-color: black;
 }
-
 
 .imgNos2 {
     height: 258px;
@@ -284,8 +288,8 @@ legend {
     display: flex;
     justify-content: center;
     position: relative;
-    background-color: black;
 }
+
 .txtNos2 {   
     text-align: center;
     font-size: 20px;
@@ -293,7 +297,6 @@ legend {
     padding-left: 100px;
     padding-right: 100px;
     color: white;
-    background-color: black;
     padding-top: 20px;
 }
 
@@ -301,24 +304,34 @@ legend {
 /* HASTA acá seccion NOSOTROS */
 /* Desde acá seccion MENÚ */
 
-
-.pizzas {
+section {
+    background-color: rgb(24, 23, 23);
+    padding-top: 40px;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
-.pizzas .pizzas1 .pizzas1txt {
-    background-color: green;
-    border-radius: 5px;
+.btn_pizza {
+    font-size: 10px;
+    border-radius: 100%;
+    position: relative;
     display: inline-block;
-    
-
-/* quiero separar los nombres de las pizzas  */    
+    text-align: center;
 }
 
+.pizzastxt {
+    position: absolute;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    left: 10px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
+.btn_cantidad {
+    margin-bottom: 55px;
+}
 
 
 /* Desde acá seccion SUCURSALES */
